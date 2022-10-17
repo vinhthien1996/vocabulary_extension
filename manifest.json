@@ -1,0 +1,25 @@
+{
+    "name": "English Vocabulary",
+    "description": "English Vocabulary",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "main.html",
+        "default_icon": "/images/english.png"
+    },
+    "background": {
+        "service_worker": "/js/background.js"
+    },
+    "icons": {
+        "16": "/images/english.png"
+    },
+    "host_permissions": ["http://vinhthien-english.herokuapp.com/*"],
+    "permissions": ["activeTab", "scripting", "storage", "unlimitedStorage"],
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "default": "Ctrl+Q"
+            }
+        }
+    }
+}
