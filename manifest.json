@@ -13,7 +13,7 @@
     "icons": {
         "16": "/images/english.png"
     },
-    "host_permissions": ["http://vinhthien-english.herokuapp.com/*"],
+    "host_permissions": ["*://vinhthien-english.herokuapp.com/*", "http://vinhthien-english.herokuapp.com/*"],
     "permissions": ["activeTab", "scripting", "storage", "unlimitedStorage"],
     "commands": {
         "_execute_action": {
